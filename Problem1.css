@@ -1,0 +1,124 @@
+body{
+  background-color: #00923E;
+  font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+
+}
+
+td, th {
+  border: 1px solid black;
+  border-radius: 10x;
+}
+th {
+  padding: 6px 5px;
+  
+}
+
+table {
+  border-collapse: collapse;
+}
+td {
+  font-size: 0.73em;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+th:first-of-type {
+  text-align: right;
+  border-top-left-radius: 10px;
+}
+th:nth-last-of-type(3){
+  text-align: left;
+}
+tr:nth-child(2n+2){
+  background-color: #C8C8C8;
+}
+tr:nth-child(2n+1){
+  background-color: #FFFFFF;
+}
+th {
+  background-color:#F4C411;
+}
+td:nth-of-type(1){
+  text-align: right;
+  padding-right: 33px;
+  padding-left: 30px;
+
+}
+td:nth-of-type(2), td:nth-of-type(4), td:nth-of-type(6), td:nth-of-type(8){
+  padding-left: 10px;
+  padding-right: 10px;
+}
+td:nth-of-type(3){
+  text-align: left;
+  padding-left: 33px;
+  padding-right: 10px;
+}
+td:nth-of-type(5){
+  padding-right: 5px;
+  text-align: right;
+  padding-left: 45px;
+}
+td:nth-of-type(7){
+  padding-left: 5px;
+  text-align: left;
+  padding-right: 10px;
+}
+
+#br {
+  background-image: url(../Images/br.png);
+  background-repeat:no-repeat;
+  background-position: 85px 50%;
+}
+#mx {
+  background-image: url(../Images/mx.png);
+  background-repeat:no-repeat;
+  background-position:5px 50%;
+}
+#es {
+  background-image: url(../Images/es.png);
+  background-repeat:no-repeat;
+  background-position: right;
+  background-position: 85px 50%;
+}
+#nl {
+  background-image: url(../Images/nl.png);
+  background-repeat:no-repeat;
+  background-position: right;
+  background-position:5px 50%;
+}
+#it {
+  background-image: url(../Images/it.png);
+  background-repeat:no-repeat;
+  background-position: right;
+  background-position: 85px 50%;
+}
+#en {
+  background-image: url(../Images/en.png);
+  background-repeat:no-repeat;
+  background-position: right;
+  background-position:5px 50%;
+}
+#ar {
+  background-image: url(../Images/ar.png);
+  background-repeat:no-repeat;
+  background-position: right;
+  background-position: 85px 50%;
+}
+#ba {
+  background-image: url(../Images/ba.png);
+  background-repeat:no-repeat;
+  background-position: right;
+  background-position:5px 50%;
+}
+#de {
+  background-image: url(../Images/de.png);
+  background-repeat:no-repeat;
+  background-position: right;
+  background-position: 85px 50%;
+}
+#pt {
+  background-image: url(../Images/pt.png);
+  background-repeat:no-repeat;
+  background-position: right;
+  background-position:5px 50%;
+}
